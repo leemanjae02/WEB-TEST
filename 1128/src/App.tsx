@@ -4,7 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const [count5, setCount5] = useState(0);
+  const [count51, setCount51] = useState(0);
 
   return (
     <>
@@ -18,8 +18,8 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount5((count5) => count5 + 1)}>
-          count is {count5}
+        <button onClick={() => setCount51((count51) => count51 + 1)}>
+          count is {count51}
         </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
